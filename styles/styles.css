@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(header.css);
+@import url(atracoes.css);
+@import url(taurus.css);
+@import url(arena.css);
+@import url(ingressos.css);
+@import url(footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* ::selection{
+    background-color: #e3ccb6;
+    color: #000000;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    background-color: #F3E5D8;
+}
+
+.innerwidth{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 150px;
+    /* background-color: blueviolet; */
+}
+
+a{
+    text-decoration: none;
+    color: default;
+}
+
+h1{
+    font-family: 'Kameron', serif;
+}
+
+button{
+    outline: none;
+    border: none;
+
+}
+
+img{
+    user-select: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1600px) {
+    .innerwidth{
+       
+        padding: 0 100px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .innerwidth{   
+        padding: 0 50px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+      .innerwidth{   
+        padding: 0 30px;
+    }
+
+}

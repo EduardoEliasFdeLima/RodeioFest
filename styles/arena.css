@@ -1,0 +1,103 @@
+#arena{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+
+#arena .innerwidth{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    gap: 100px;
+}
+
+
+/* 
+.left-arena{
+    width: 300px;
+} */
+
+
+.left-arena h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #4D382C;
+}
+
+
+.left-arena p{
+    font-family: "Kaisei Opti", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #5c5b5b;
+    margin-top: 20px;
+
+}
+
+
+.right-arena img{
+    width: 500px;
+    border-radius: 10px;
+    border: solid 5px #D7AC82;
+}
+
+.right-arena {
+  position: relative;
+  /* width: fit-content; */
+}
+
+.right-arena img {
+  /* position: absolute; */
+  width: 500px; /* ajusta conforme seu layout */
+  border-radius: 15px;
+}
+
+/* imagem de trás */
+#imgBack {
+ 
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  opacity: 0.9; /* opcional pra dar efeito */
+}
+
+/* imagem da frente */
+#imgFront {
+     position: absolute;
+  bottom: -10px;
+  left: -40px;
+  z-index: 2;
+}
+
+
+
+@media screen and (max-width: 1000px) { 
+    #arena .innerwidth{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        gap: 100px;
+    }
+
+
+    #arena{
+        margin-top: 200px;
+        padding-bottom: 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+        
+    .right-arena img{
+        width: 80%;
+        left: 0;
+        transform: translateX(20%);
+        border-radius: 10px;
+        border: solid 5px #D7AC82;
+    }
+}

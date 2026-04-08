@@ -1,0 +1,193 @@
+#evento{
+    margin-top: 300px;
+    padding-bottom: 100px;
+}
+
+
+#evento .innerwidth{
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+.left-taurus{
+    position: absolute;
+    left: -100px;
+    width: 700px;
+    height: 400px;
+    background-color: #D7AC82;
+    border-radius: 15px;
+}
+
+
+.left-taurus img{
+    margin-left: 100px;
+    height: 500px;
+}
+
+.right-taurus{
+    margin-right: 100px;
+    align-self: right;
+}
+
+
+
+
+.block-taurus{
+    background-color: #EFDECC;
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.block-taurus p{
+    color: #474747;
+    font-size: 32px;
+}
+
+.block-taurus h1{
+    color: #D4B288;
+    font-size: 70px;
+}
+
+.block-taurus span{
+      font-size: 40px;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+        
+    .right-taurus{
+        margin-right: 00px;
+        align-self: right;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    #evento{
+        margin-top: 200px;
+    }
+
+        
+    #evento .innerwidth{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+
+        
+    .left-taurus{
+        order: 2;
+        position: absolute;
+        max-width: 100%;
+        width: 100%;
+        left: 0;
+        top: 250px;
+        height: 200px;
+        background-color: #D7AC82;
+        border-radius: 0px;
+    }
+
+        
+    .left-taurus img{
+        margin-left: 00px;
+        height: auto;
+        width: 80%;
+    }
+
+
+    .left-taurus{
+        height: 150px;
+    }
+
+
+    .right-taurus{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+        
+    .block-taurus{
+       width: 50%;
+       gap: 0px;
+        
+    }
+
+        
+    .block-taurus{
+        /* margin: 20px;
+        padding: 10px 30px;
+        border-radius: 5px; */
+    }
+
+    .block-taurus p{
+        font-size: 24px;
+    }
+
+    .block-taurus h1{
+        font-size: 50px;
+    }
+
+        
+    .block-taurus span{
+        font-size: 25px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #evento{
+        margin-top: 100px;
+        padding-bottom: 00px;
+    }
+
+    
+    .right-taurus{
+        gap: 10px;
+    }
+
+        
+    .block-taurus p{
+        font-size: 20px;
+    }
+
+    .block-taurus h1{
+        font-size: 30px;
+    }
+
+    .block-taurus span{
+        font-size: 20px;
+    }
+
+
+        
+    .block-taurus{
+        padding: 10px;
+        margin: 0px;
+    }
+
+     
+    .left-taurus{
+        top: 200px;
+        height: 100px;
+    }
+
+
+
+}

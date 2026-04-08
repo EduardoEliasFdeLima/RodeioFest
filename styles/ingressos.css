@@ -1,0 +1,246 @@
+#ingressos{
+    width: 100%;
+    background-color: #e4bd96;
+    padding: 100px 0;
+}
+
+#ingressos h1{
+    text-align: center;
+    text-transform: uppercase;
+      color: #4D382C;
+    font-size: 60px;
+}
+
+#ingressos .innerwidth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+.line-price-info{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+
+
+.ticket-box{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+    /* width: 70%; */
+    border: #4D382C dashed 3px;
+    margin-top: 50px;
+    transition: 1s;
+
+
+      background: linear-gradient(to right, #ab8058 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 1s ease;
+}
+
+
+.ticket-box:hover{
+     border: #4D382C solid 3px;
+    
+     background-position: left;
+}
+
+
+.ticket-box ul{
+     list-style: none;
+     font-size: 24px;
+     text-transform: uppercase;
+     font-weight: 500;
+     line-height: 32px;
+}
+
+.ticket-box h3, 
+.info-box h3{
+    position: absolute;
+    left: 0px;
+    top: -32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+
+
+.info-box{
+    position: relative;
+    width: 30%;
+    padding: 20px 30px;
+    border: #4D382C dashed 3px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #ab8058 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position .7s ease;
+}
+
+.info-box:hover{
+      background-position: left;
+}
+
+.info-box ul{
+      list-style: none;
+     font-size: 24px;
+     line-height: 32px;
+}
+
+
+.ticket-box ul li:hover{
+    text-decoration: underline;
+}
+
+#ingressos .innerwidth button{
+    margin-top: 50px;
+    align-self: flex-end;
+    padding: 20px 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #4D382C;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+#ingressos .innerwidth button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Kameron', serif;
+}
+
+
+
+#ingressos .innerwidth button:hover{
+   background-color: #261d18;
+    transform: translateX(-5px);
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .innerwidth{   
+        padding: 0 50px;
+    }
+
+        
+    .info-box ul{
+        list-style: none;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    .ticket-box,    
+    .info-box{
+        padding: 10px 20px;
+    }
+
+        
+    .line-price-info{
+        column-gap: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .ticket-box{
+        width: 60%;
+    }
+
+    .info-box{
+        width: 40%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .ticket-box, .info-box{
+        padding: 5px 10px;
+    }
+
+    .info-box{
+        width: 55%;
+    }
+        
+    .ticket-box ul{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .info-box ul{
+        font-size: 12px;
+        line-height: 16px;
+    }
+        
+    .ticket-box h3, 
+    .info-box h3{
+        font-size: 18px;
+        top: -22px
+    }
+
+       .line-price-info{
+        margin-top: 0;
+        column-gap: 2px;
+    }
+
+
+        
+    #ingressos .innerwidth{
+        gap: 0px;
+        margin-top: 0;
+    }
+
+        
+    #ingressos h1{
+        font-size: 50px;
+    }
+
+        
+    #ingressos .innerwidth button{
+        margin-top: 50px;
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+        
+
+    #ingressos{
+        padding: 100px 0;
+        padding-top: 40px;
+    }
+        
+
+
+
+}
