@@ -191,3 +191,12 @@
 
 
 }
+
+
+@media screen and (max-width: 400px) {
+         
+    .block-taurus{
+        margin: 5px;
+       width: max-content;
+    }
+}

@@ -56,7 +56,6 @@
 
 .ticket-box:hover{
      border: #4D382C solid 3px;
-    
      background-position: left;
 }
 
@@ -187,6 +186,7 @@
 
     .ticket-box, .info-box{
         padding: 5px 10px;
+          border: #4D382C dashed 1px;
     }
 
     .info-box{
@@ -200,6 +200,7 @@
 
     .info-box ul{
         font-size: 12px;
+        font-weight: 300;
         line-height: 16px;
     }
         
@@ -213,8 +214,6 @@
         margin-top: 0;
         column-gap: 2px;
     }
-
-
         
     #ingressos .innerwidth{
         gap: 0px;
@@ -237,9 +236,18 @@
 
     #ingressos{
         padding: 100px 0;
-        padding-top: 40px;
     }
         
+        
+}
+
+
+
+@media screen and (max-width: 400px) {
+    
+    #ingressos h1{
+        font-size: 40px;
+    }
 
 
 

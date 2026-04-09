@@ -38,7 +38,7 @@ ScrollReveal().reveal('.ticket-box', {
     origin: 'left',
     duration: 2000,
     distance: '20%',
-    reset: true
+    reset: false
 });
 
 
@@ -47,7 +47,7 @@ ScrollReveal().reveal('.info-box', {
     origin: 'right',
     duration: 2000,
     distance: '20%',
-    reset: true
+    reset: false
 });
 
 
@@ -57,7 +57,7 @@ ScrollReveal().reveal('#arena', {
     duration: 2000,
     delay: 700,
     distance: '20%',
-    reset: true
+    reset: false
 });
 
 

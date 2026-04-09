@@ -101,3 +101,55 @@
         border: solid 5px #D7AC82;
     }
 }
+
+
+
+@media screen and (max-width: 500px) {
+
+    #arena{
+        padding-top: 200px;
+    }
+            
+    .left-arena h1{
+        font-size: 40px;
+    }
+
+
+    .left-arena p{
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 20px;
+
+    }
+
+
+    .right-arena{
+       
+    }
+
+    .right-arena img{
+        width: 100%;
+        border-radius: 10px;
+        transform: translateX(0%);
+        border:none;
+    }
+
+    
+    /* imagem de trás */
+    #imgBack {      
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #imgFront {
+       visibility: hidden;
+    }
+        
+    #arena .innerwidth{
+        gap: 40px;
+    }
+
+
+   
+}

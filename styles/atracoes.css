@@ -67,6 +67,18 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    #atracoes{
+        margin-top: 20px;
+
+    }
+
+        
+    #atracoes h1{
+        font-size: 50px;
+    }
+}
+
 
 
 @media screen and (max-width: 500px) {
